@@ -1,0 +1,15 @@
+*{box-sizing:border-box;margin:0}body{font-family:'Trebuchet MS',Verdana,sans-serif;background:#f3f9fc;color:#12263a;line-height:1.7}
+a{color:#0a7ea4;text-decoration:none}a:focus-visible,button:focus-visible{outline:3px solid #ff7a59;outline-offset:2px}
+header{background:#fff;border-bottom:3px solid #0a7ea4;position:sticky;top:0}
+nav{max-width:960px;margin:auto;padding:14px 20px;display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+.logo{font-weight:800;font-size:1.4rem;color:#12263a;margin-right:auto}.logo b{color:#ff7a59}
+.hero{background:linear-gradient(120deg,#0a7ea4,#1fb5a8);color:#fff;padding:64px 20px}
+.hero div,main,footer div{max-width:960px;margin:auto}
+.hero h1{font-size:clamp(2rem,6vw,3.4rem);line-height:1.15;max-width:15ch}.hero p{margin-top:14px;max-width:46ch;font-size:1.1rem}
+main{padding:36px 20px}.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:#fff;border-radius:14px;padding:22px;border-left:6px solid #1fb5a8;display:block;color:#12263a;transition:transform .15s}
+.card:hover{transform:translateY(-3px)}.card small{color:#ff7a59;font-weight:700}.card h2{font-size:1.15rem;margin-top:6px}
+article{background:#fff;border-radius:14px;padding:28px;max-width:720px;margin:auto}article h1{font-size:1.9rem;line-height:1.25;margin-bottom:14px}
+article li{margin:10px 0 10px 22px}article p{margin-top:18px}
+footer{background:#12263a;color:#cfe3ee;padding:28px 20px;text-align:center;font-size:.9rem}footer a{color:#fff;margin:0 8px}
+@media(prefers-reduced-motion:reduce){.card{transition:none}}
